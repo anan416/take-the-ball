@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+*::selection{
+    background-color:#F9F5FF ;
+    color:#28262C;
+}
+
+body {
+    background-color: #DB3A34;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-animation: random 30s infinite;
+    animation: random 30s infinite;
+}
+    
+@keyframes random {
+    15% { background-color: #AD5D4E; } 
+    30% { background-color: #C33C54 ; } 
+    45% { background-color: #AF1B3F; }
+    60% { background-color: #653239; } 
+    75% { background-color: #5f1a37; } 
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Paprika', cursive;
+}
+
+ol ul{
+    text-align: center;
+}
+
+p, ul{
+    font-size: 50px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+button{
+    font-family: 'Paprika', cursive;
+    font-size: 90px;
+    border-radius: 30px;
+    border-color: #FFFFFF;
+    user-select: none;
+}
+
+button:hover{
+    cursor:pointer;
+    font-size:95px;
+}
+
+button:active{
+    border-color:#28262C;
+    font-size: 85px;
+}
+
+.pelota{
+    background-color: rgb(255, 0, 0);
+    width:1%;
+    padding: 50px;
+    border: solid;
+    border-color:rgb(255, 0, 0);
+    border-width: 3px;
+    border-radius: 100%;
+    box-shadow: 5px 3px 10px 5px rgb(0, 0, 0, .4);
+    position: absolute;
+}
+
+table{
+    margin: auto;
+}
+
+#miSelect{
+    font-family: 'Paprika', cursive;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color:rgb(0, 0, 0);
+
+}
